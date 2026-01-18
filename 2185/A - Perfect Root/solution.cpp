@@ -1,0 +1,1 @@
+#include <iostream> using namespace std; int main(){    int t, n;    int a = 1;    cin >> t;    while (t)    {        cin >> n;         while (n)        {            cout << a++ << " ";            n--;        }         t--;    }     return 0;}
